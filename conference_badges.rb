@@ -12,5 +12,4 @@ def assign_rooms(array)
   array.each_with_index.collect {|value, i|
    "Hello #{value}, you will be in room #{i + 1}"
   }
- end
 end
