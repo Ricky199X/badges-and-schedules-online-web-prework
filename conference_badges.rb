@@ -1,5 +1,5 @@
-def badge_maker(name)
-  "Hello, my name is #{name}."
+def badge_maker(speaker)
+  "Hello, my name is #{speaker}."
 end
 
 
@@ -10,7 +10,7 @@ def batch_badge_creator(array)
 end
    
     
-def assign_rooms(speakers)
+def assign_rooms(names)
   speakers.each_with_index.collect {|speaker, room|
    "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"
   }
